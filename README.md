@@ -18,7 +18,7 @@ This is the Kamino Lending Typescript SDK to interact with the Kamino Lend smart
 
 ```typescript
 // There are three levels of data you can request (and cache) about the lending market.
-// 1. Initalize market with parameters and metadata
+// 1. Initialize market with parameters and metadata
 const market = await KaminoMarket.load(
   connection,
   new PublicKey("7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF") // main market address. Defaults to 'Main' market
